@@ -29,17 +29,17 @@ int main()
 
         if (chamber[turn] == 1)
         {
-            cout << "뒤짐ㅋㅋ" << endl;
+            cout << "맞았음" << endl;
             fired++;
         }
         else
         {
-            cout << "살았음ㅋㅋ" << endl;
+            cout << "안맞았음" << endl;
         }
 
         turn++;
         if (turn >= n) break;
     }
-    cout << "ㅈㅈ" << endl;
+    cout << "게임 종료." << endl;
     return 0;
 }
